@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styletrr.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <script>
+        function btn(){
+            var username=document.getElementById("name").value;
+            var password=document.getElementById("pass").value;
+            if(username=="kousalya"&&password=="12345"){
+                alert("Login Sucessfully");
+            }
+            else{
+                alert("Invalid username and Password");
+            }
+        }
+    </script>
+  <H1> welcome to my website</H1>  
+  <div class="cont">
+      <div class="card">
+        <h2> Login form</h2>
+    </div>
+            <div class="card">
+            <input class="user"type="text"id="name" placeholder="Enter Username">
+            </div>
+            <div class="card">
+                <input class="user"type="password"id="pass" placeholder="Enter Password">
+            </div>
+            <div class="card">
+            <input class="button" type="submit" id="btn" value="Login" onclick="btn()">
+            </div>
+      </div>
+  
+</body>
+</html>
